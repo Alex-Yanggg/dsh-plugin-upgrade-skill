@@ -2,7 +2,7 @@
 
 DSH 插件生态的 **skill 合集仓库**，社区共建。
 
-[DSH（DeepSeek Harness）](https://github.com/deepseek-ai/deepseek-harness) 是"一切皆插件"的 agent harness。本仓库收集与 DSH 插件相关的各种 agent skill——升级、审计、迁移、开发脚手架……欢迎贡献。官方也在这里征集定点升级类 skill（如 0.1.1 → 0.1.2），见 [discussions/5120](https://github.com/deepseek-ai/deepseek-harness/discussions/5120)。
+[DSH（DeepSeek Harness）](https://github.com/LaplaceYoung/oh-my-dsh) 是"一切皆插件"的 agent harness。本仓库收集与 DSH 插件相关的各种 agent skill——升级、审计、迁移、开发脚手架……欢迎贡献。官方也在 [deepseek-ai/deepseek-harness discussions/5120](https://github.com/deepseek-ai/deepseek-harness/discussions/5120) 征集定点升级类 skill（如 0.1.1 → 0.1.2）。
 
 ## 目录结构
 
@@ -19,7 +19,7 @@ DSH 插件生态的 **skill 合集仓库**，社区共建。
 
 | Skill | 说明 |
 | --- | --- |
-| [plugin-upgrade](skills/plugin-upgrade/) | 升级 DSH 插件（当前面向 0.1.1 → 0.1.2）：盘点版本 → 评估 changelog → 迁移 cordis.yml → 执行升级 → 验证 |
+| [plugin-upgrade](skills/plugin-upgrade/) | 升级 DSH 插件：盘点版本 → 评估 changelog → 迁移 cordis.yml → 执行升级 → 验证；含宿主版本迁移分支（触点自查 + 版本变更卡片，见 references/） |
 
 ## 如何贡献
 
